@@ -94,6 +94,8 @@
 <wire x1="16.51" y1="-11.43" x2="16.51" y2="11.43" width="0.127" layer="21"/>
 <wire x1="16.51" y1="11.43" x2="-16.51" y2="11.43" width="0.127" layer="21"/>
 <wire x1="-16.51" y1="11.43" x2="-16.51" y2="-11.43" width="0.127" layer="21"/>
+<text x="-16.51" y="12.7" size="1.27" layer="25">&gt;name</text>
+<text x="11.43" y="12.7" size="1.27" layer="27">&gt;value</text>
 </package>
 </packages>
 <symbols>
@@ -172,6 +174,18 @@
 <connect gate="G$1" pin="SDA" pad="19"/>
 <connect gate="G$1" pin="VCC" pad="18"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HC-SR501">
+<description>PIR sensor module</description>
+<gates>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
